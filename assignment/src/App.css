@@ -1,0 +1,134 @@
+p{
+  position: absolute;
+  width: 111px;
+  height: 22px;
+  left: 80px;
+  top: 74px;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #0B0D26;
+}
+
+button{
+  position: absolute;
+  left: 80%;
+  right: 9%;
+  top: 14%;
+  bottom: 77%;
+  background: #1D79F2;
+  border-radius: 10px;  
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;  
+  color: #FFFFFF;
+  border: 0.3px solid #F5F5F5;
+}
+
+.card{
+  position: absolute;
+  width: 1040px;
+  height: 325px;
+  left: 80px;
+  top: 157px;
+  background: #FFFFFF;
+  box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background: #F2441D;
+  border-radius: 10px;  
+}
+
+img{
+  position: absolute;
+  width: 159px;
+  height: 175px;
+  left: 450px;
+  top: 60px;
+}
+
+.card-text{
+  position: absolute;
+  width: 172px;
+  height: 16px;
+  left: 465px;
+  top: 235px;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #434459;
+}
+
+form{
+  position: absolute;
+  width: 415px;
+  height: 660px;
+  left: 780px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+}
+.loadingform{
+  position: absolute;
+  width: 971px;
+  height: 660px;
+  left: -195px;
+  top: 0px;
+  background: #434459;
+  opacity: 0.6;
+}
+
+#loader{
+position: absolute;
+left: 70%;
+right: 53.97%;
+top: 47%;
+bottom: 20.36%;
+height: 10%;
+width: 7%;
+background: #F5F5F5;
+border-radius: 100%;
+}
+
+#loading{
+  position: absolute;
+  left: 70%;
+  right: 53.97%;
+  top: 47%;
+  bottom: 20.36%;
+  height: 10%;
+  width: 7%;
+
+  border-radius: 20%;
+}
+
+#formparag{
+  position: absolute;
+  width: 148px;
+  height: 22px;
+  left: 2px;
+  top: 19px;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #0B0D26;
+  margin-top: -5%;
+  /* border: 0.1px solid #0B0D26; */
+}
+#dob, #department, #nationalid, #email, #phone, #surname, #name{
+  padding-top: 30px;
+}
+
+
