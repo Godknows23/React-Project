@@ -41,15 +41,18 @@ function AddEmployee() {
                 <label>Date Of Birth</label><br></br>
                 <input type='date'></input>
             </div>
-            {/* <div>
-             <button className='clear_btn'>Clear</button>
-            <button className='submit_btn'>Submit</button> 
-            </div> */}
+        <div>
+        {/* <button type="button" class="clear_btn" onclick={closeForm} style={cancelButton}>Clear</button> */}
+              <button className='clear_btn'>Clear</button>
+            <button className='submit_btn'>Submit</button>  
+        </div>
         </form>
         <div className='loadingform'>
         <img id='loading' src={require('./img/Vector.png')}/>
-        <img id='loader' src={require('./img/Group.jpg')}/>
-        </div>
+        {/* <img id='loader' src={require('./img/Group.png')}/> */}
+    
+    
+           </div>
             </div>
             
   )

@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
+import Employee from '../pages/Employee';
 import AddEmployee from './AddEmployee';
+
+  
 
 export default function Button({children}) {
     const [isShown, setIsShown] = useState(false);
@@ -14,8 +17,10 @@ export default function Button({children}) {
             <div className='modal'>
               {children}
             <AddEmployee />
+            <p>Employees</p>
             </div>
             )}
     </div>
   );
 }
+

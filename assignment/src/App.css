@@ -11,6 +11,65 @@ p{
   line-height: 22px;
   color: #0B0D26;
 }
+.primary{
+  position: absolute;
+  top: -5%;
+  background: #FFFFFF;
+  border-radius: 0px;  
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;  
+  color: black;
+ 
+}
+.row{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 80px 12px 20px;
+gap: 36px;
+
+width: 1181px;
+height: 420px;
+
+background: rgba(67, 159, 217, 0.1);
+border-bottom: 1px solid #F5F5F5;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.container{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: right;
+padding: 22px 0px;
+
+position: absolute;
+width: 1126px;
+height: 377px;
+left: 60px;
+top: 80px;
+
+background: #FFFFFF;
+/* Box shadow */
+
+box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
+border-radius: 10px;
+}
+
 
 button{
   position: absolute;
@@ -71,18 +130,19 @@ img{
 
 form{
   position: absolute;
-  width: 415px;
+  width: 470px;
   height: 660px;
-  left: 780px;
+  left: 830px;
   top: 0px;
   background: #FFFFFF;
   box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+  left: 810px;
 }
 .loadingform{
   position: absolute;
   width: 971px;
-  height: 660px;
-  left: -195px;
+  height: 700px;
+  left: -200px;
   top: 0px;
   background: #434459;
   opacity: 0.6;
@@ -96,11 +156,11 @@ top: 47%;
 bottom: 20.36%;
 height: 10%;
 width: 7%;
-background: #F5F5F5;
 border-radius: 100%;
+color: #0B0D26;
 }
 
-#loading{
+ #loading{
   position: absolute;
   left: 70%;
   right: 53.97%;
@@ -108,8 +168,10 @@ border-radius: 100%;
   bottom: 20.36%;
   height: 10%;
   width: 7%;
+  color: #0B0D26;
+ 
 
-  border-radius: 20%;
+  border-radius: 50%;
 }
 
 #formparag{
@@ -128,7 +190,30 @@ border-radius: 100%;
   /* border: 0.1px solid #0B0D26; */
 }
 #dob, #department, #nationalid, #email, #phone, #surname, #name{
-  padding-top: 30px;
+  padding-top: 25px;
+  padding-left: 20px;
 }
 
-
+.submit_btn{
+  background: #1D79F2;
+  font-size: 20px;
+  height: 50px; 
+  width: 100px; 
+  padding: 10px 15px; 
+  margin-left: auto;
+  top: 90%;
+  left: 0%;
+  right: 25%;
+  
+}
+.clear_btn{
+  background: #1D79F2;
+  font-size: 20px;
+  height: 50px; 
+  width: 100px; 
+  padding: 10px 15px; 
+  margin-left: auto;
+  top: 90%;
+  left: 0%;
+  right: 50%;
+}
