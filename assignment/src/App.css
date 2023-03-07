@@ -26,6 +26,22 @@ p{
   color: black;
  
 }
+#employeeLogo{
+  position: absolute;
+  top: -20%;
+  left: -5%;
+  background: #FFFFFF;
+  border-radius: 0px;  
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;  
+  color: black;
+}
+
 .row{
   box-sizing: border-box;
 
@@ -216,4 +232,67 @@ color: #0B0D26;
   top: 90%;
   left: 0%;
   right: 50%;
+}
+svg{
+  width: 10px;
+height: 10px;
+padding-top: 0%;
+background: #CCCCCC;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+text-decoration: none;
+
+
+}
+
+#edit_svg{
+  position: absolute;
+  top: -5%;
+  left: 10%;
+  background: #FFFFFF; 
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;  
+  color: grey;
+  text-decoration: none;
+  
+}
+
+#delete_svg{
+  position: absolute;
+   top: -5%;
+  left: 15%;
+  background: #FFFFFF; 
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;  
+  color: grey;
+  text-decoration: none;
+
+}
+#add_salary{
+  position: absolute;
+   top: -5%;
+  left: 20%;
+  background: #FFFFFF; 
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;  
+  color: grey;
+  text-decoration: none;
 }
